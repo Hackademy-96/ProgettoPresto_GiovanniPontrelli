@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link gf -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Square&family=Oswald&family=Righteous&display=swap" rel="stylesheet">
+    <!-- AoS CSS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"crossorigin="anonymous">
+    <!-- link icone bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- link css esterno -->
+    <link rel="stylesheet" href="style.css">
+    <title>Gaming Hall hackademy96</title>
+</head>
+<body>
+    <!-- navbar dark -->
+    <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body fixed-top transition" id ="navbar" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><i class="bi bi-controller text-success"></i>Gaming Hall</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item me-5">
+                <a class="nav-link active text-success backgroundnav" href="#">Console</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link active text-success backgroundnav" href="#">Giochi</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link active text-success backgroundnav" href="./">Carta fedeltà</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Cerca giochi/console>" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <h1 class="text-center titlet p-5 my-5"><span class="text-success">GAMING HALL</span> lo spazio sicuro per l'usato dei gamer</h1>
+        <h2 class="text-center titlet">Ecco le nostre super <span class="text-warning">offerte</span> dedicate a <span class="text-success">voi!</span></h2>
+      </header>
+      <div class="bgheader container mt-5 " data-aos="fade-down">
+          <div class="row">
+            <div class="col-5 bg-light h-100 m-5 p-5 flex-column justify-content-center align-items-center">
+            <h3 class="text-success titlet">scoprile tutte!</h3>
+            <p>scorri il nostro fantastico album e trova la sede più vicina a te devo acquistare</p>
+          </div>
+          <div class="col-6">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <img src="./img/bg1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <img src="./img/bgheader2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          </div>
+      </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>              
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+          <script src="./main.js"></script>
+          </body>
+          </html>
