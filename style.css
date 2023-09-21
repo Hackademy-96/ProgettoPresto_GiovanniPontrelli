@@ -1,10 +1,10 @@
 :root{
   --color-P: rgb(32, 91, 5);
   --color-S: white;
-  --color-A: rgb(139, 105, 9);
+  --color-A: rgb(171, 129, 13);
 }
 .color-p{
-  color: var(--color-P);
+  color: var(--color-P) !important;
 }
 /* NAVBAR  */
 .navbar-custom{
@@ -64,12 +64,13 @@ font-family: 'Righteous', cursive;
   border: 2px solid var(--color-P);
 }
 
+
 /* Category  */
 
 .img-category{
   width: 100%;
   border-radius: 50%;
-  border: 2px solid var(--color-P);
+  border: 2px solid var(--color-A);
   padding: 5px;
 }
 /* Sezione Numeri  */
@@ -83,3 +84,8 @@ font-family: 'Righteous', cursive;
   flex-direction: column;
   border-radius: 10px;
 }
+
+.card:hover>div>img{
+  transform: scale(1.2);
+}
+
