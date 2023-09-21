@@ -49,6 +49,37 @@ font-family: 'Righteous', cursive;
 .bgheader{
   background: url(./img/bg1.jpg) no-repeat;
   height: 60vh;
-  width: 100vw;
   
+  
+}
+
+.btn-custom{
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.btn-esplora{
+  background-color: transparent;
+  color: var(--color-P);
+  border: 2px solid var(--color-P);
+}
+
+/* Category  */
+
+.img-category{
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid var(--color-P);
+  padding: 5px;
+}
+/* Sezione Numeri  */
+.boxNumbers{
+  background-color: var(--color-P);
+  height: 120px;
+  color: var(--color-S);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
 }
