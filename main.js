@@ -49,7 +49,7 @@ let annunci = [
 let annunciWrapper = document.querySelector("#annunciWrapper")
 
 annunci.forEach((annuncio, i)=>{
-    if(i >= annunci.length - 3){
+    if(i >= annunci.length - 5){
 
         let div = document.createElement("div")
         div.classList.add("col-12", "col-md-4", "col-lg-3", "my-5" )
@@ -75,6 +75,21 @@ annunci.forEach((annuncio, i)=>{
     }
 
 })
+
+let hearts = document.querySelectorAll(".bi-heart");
+
+
+hearts.forEach((heart)=>{
+
+    heart.addEventListener("click", ()=>{
+        heart.classList.toggle("bi-heart")
+        heart.classList.toggle("bi-heart-fill")
+        heart.classList.toggle("text-success")
+    })
+
+
+})
+
 
 
 
