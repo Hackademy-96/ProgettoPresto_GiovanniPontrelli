@@ -1,22 +1,20 @@
-<!DOCTYPE html>
+<<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link gf -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Square&family=Oswald&family=Righteous&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gaming Hall hackademy96</title>
+    <!-- SWIPER CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <!-- AoS CSS  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- link bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"crossorigin="anonymous">
-    <!-- link icone bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- link css esterno -->
+    <!-- Bootstrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- My Css -->
     <link rel="stylesheet" href="style.css">
-    <title>Gaming Hall hackademy96</title>
-</head>
+  </head>
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body fixed-top transition" id ="navbar" data-bs-theme="dark">
@@ -65,7 +63,7 @@
             <div class="col-5 bg-light h-100 m-5 p-5  d-flex flex-column justify-content-center align-items-center ">
             <h3 class="color-p titlet">scoprile tutte!</h3>
             <p>scorri il nostro fantastico album e trova la sede più vicina a te devo acquistare</p>
-            <button  class="btnsearch" class="btn-custom btn-esplora btn-outline color-p">ESPLORA</button>
+            <button class="btn-custom btn-esplora btn-outline color-p">ESPLORA</button>
           </div>
           <!-- banner promozionale header -->
           <div class="col-6">
@@ -196,14 +194,148 @@
               <h4 class="titlet"> carte fedeltà rilasciate oggi</h4>
               <p><span id="fedelitynunmbers">0</span>+</p>
             </div>
-        </div>
+        </div>  <section class="container my-5">
+      <div class="row">
+          <div class="col-12">
+              <h2 class="color-p display-3 text-center border-bottom my-5">RECENSIONI</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12">
+
+                <!-- Swiper -->
+              <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+
+                  <div class="swiper-slide d-flex flex-column justify-content-around align-items-center shadow">
+                      <h5 class="color-p">Dradone di Monterotondo</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloribus. Facilis maxime repudiandae quia ipsum.</p>
+                      <img class="img-carousel" src="https://picsum.photos/50" alt="">
+                      <div class="fs-4">
+                          <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i>
+                      </div>
+                  </div>
+                  <div class="swiper-slide d-flex flex-column justify-content-around align-items-center shadow">
+                      <h5 class="color-p">Luca Ventuich</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloribus. Facilis maxime repudiandae quia ipsum.</p>
+                      <img class="img-carousel" src="https://picsum.photos/50" alt="">
+                      <div class="fs-4">
+                          <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i>
+                      </div>
+                  </div>
+                  <div class="swiper-slide d-flex flex-column justify-content-around align-items-center shadow">
+                      <h5 class="color-p">Marco Dentamaro</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloribus. Facilis maxime repudiandae quia ipsum.</p>
+                      <img class="img-carousel" src="https://picsum.photos/50" alt="">
+                      <div class="fs-4">
+                          <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i>
+                      </div>
+                  </div>
+                  <div class="swiper-slide d-flex flex-column justify-content-around align-items-center shadow">
+                      <h5 class="color-p">Mario Rossi</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloribus. Facilis maxime repudiandae quia ipsum.</p>
+                      <img class="img-carousel" src="https://picsum.photos/50" alt="">
+                      <div class="fs-4">
+                          <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i>
+                      </div>
+                  </div>
+                  <div class="swiper-slide d-flex flex-column justify-content-around align-items-center shadow">
+                      <h5 class="color-p">Luigi Pincopallino</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloribus. Facilis maxime repudiandae quia ipsum.</p>
+                      <img class="img-carousel" src="https://picsum.photos/50" alt="">
+                      <div class="fs-4">
+                          <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-half text-warning"></i><i class="bi bi-star text-warning"></i><i class="bi bi-star text-warning"></i>
+                      </div>
+                  </div>
+              
+                  </div>
+                  <div class="swiper-button-prev color-p"></div>
+                  <div class="swiper-button-next color-p"></div>
+                  <div class="swiper-pagination"></div>
+              </div>
+
+          </div>
+      </div>
+  </section>
     </section>
     <!-- fine sezione numeri  -->
-    <footer class="">
-      <h3 class="titlet color-p text-center p-5 mt-5"> powerade by hackademy96</h3>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>              
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-          <script src="./main.js"></script>
-          </body>
-          </html>
+     <!-- Sezione RECENSIONI  -->
+   
+  <!-- fine Sezione RECENSIONI  -->
+  <hr class="mx-5 mt-5">
+  <!-- footer  -->
+  <footer class="container mt-5 mb-3">
+
+        <div class="row justify-content-between">
+          <div class="col-6 col-md-1 mb-3">
+            <h5 class="color-p">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-1 mb-3">
+            <h5 class="color-p">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-1 mb-3">
+            <h5 class="color-p">Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5 class="color-p">Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-danger" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-twitter"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+  <!-- fine footer  -->
+
+
+
+  <!-- Swiper JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- AoS JS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
+  <!-- Bootstrap JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- My JS  -->
+  <script src="./main.js"></script>
+</body>
+</html>
